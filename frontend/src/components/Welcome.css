@@ -1,0 +1,15 @@
+.welcome {
+  background-color: #e97da3; /* darker rose pink */
+  color: white; /* white text */
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: none; /* remove subtle shadow if you want it flat */
+  outline: none; /* remove the blue focus outline */
+  border: none; /* in case a border is causing that outline */
+}
+
+.welcome:focus,
+.welcome:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
