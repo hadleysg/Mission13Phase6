@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Book } from '../Book';
-import { fetchBooks, deleteBook, updateBook, addBook } from '../api/BooksAPIS';
+import { fetchBooks, addBook } from '../api/BooksAPIS';
 import Pagination from '../components/Pagination';
 import EditBookForm from '../components/EditBookForm';
 import DeleteBookForm from '../components/DeleteBookForm';
